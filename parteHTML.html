@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="parteCSS.css">
+    <title>Moda Masculina</title>
+</head>
+<body>
+    
+    <header><h1>Zack's Moda Masculina</h1></header>
+
+    <main class="Produto">
+
+        <h2>PRODUTOS</h2>
+        <span>Meus Produtos</span>
+
+        <div class="corpo">
+
+        <div class="inputes">
+            <label for="Produtos">PRODUTO:</label>
+            <input type="text" id="texto">
+            <label for="Numeros">VALOR:</label>
+            <input type="number" name="number" id="numero">
+
+        <div class="botoes">
+            <button onclick="produto.editar()" id="but1">ADICIONAR</button>
+            <button onclick="produto.remover()">REMOVER</button>
+        </div>
+        </div>
+        </div>
+
+      <div class="tabela">
+
+                 <table border="1">
+                        
+                    <thead>
+                        <th>ID</th>
+                        <th>PRODUTO</th>
+                        <th>VALOR</th>
+                        <th>AÇÕES</th>
+                    </thead>
+                    <tbody id="tbody">
+                       
+                    </tbody>
+
+
+
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./parteJS.js"></script>
+</body>
+</html>

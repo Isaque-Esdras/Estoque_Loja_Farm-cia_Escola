@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+
+.corpo{
+  
+  background-color: rgba(137, 43, 226, 0.137);
+  padding: 10px;
+  border: 1px solid blueviolet;
+  border-radius: 15px;
+}
+
+input{
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    display: grid;
+    width: 95%;
+    color: blueviolet;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+button{
+    background-color: rgba(137, 43, 226, 0.568);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: rgb(248, 161, 248);
+}
+
+body{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table{
+    width: 100%;
+    
+}
+
+table tr, th{
+    background-color: rgb(254, 253, 255);
+    text-align: center;
+}
